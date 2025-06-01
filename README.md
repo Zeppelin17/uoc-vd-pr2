@@ -1,2 +1,13 @@
-# uoc-vd-pr2
-Codi font corresponent a la visualització de la PR2 de l'assignatura Visualització de Dades del màster universitari de Ciència de Dades de la UOC.
+# UOC - Visualització de Dades - PR2
+
+Per a executar la presentació és necessari tenir instal·lat node v22 i fer servir aquestes comandes:
+
+```bash
+npm install
+```
+
+```bash
+npx vite
+```
+
+Accedir a http://localhost:5173/.
