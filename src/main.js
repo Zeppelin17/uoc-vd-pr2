@@ -25,7 +25,7 @@ let currentStep = 0
 let dataset = []
 
 async function loadData() {
-  dataset = await d3.csv("data/dataset.csv", d3.autoType)
+  dataset = await d3.csv("/dataset.csv", d3.autoType)
 }
 
 function renderStep(stepIndex) {
